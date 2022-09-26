@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
+use App\Services\Images\InterventionImage;
 use App\Services\Images\WatermarkInterface;
-use App\Services\ImagesOptimizer\InterventionImage;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
